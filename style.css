@@ -6,9 +6,9 @@ body{
 #About h2,
 #Resume h2,
 #Projects h2,
-#Contact h2,
-.logo{
+#Contact h2{
     font-family: 'Playfair Display', serif;
+    padding-top: 5px;
 }
 
 body{
@@ -30,12 +30,12 @@ nav{
     left: 0;
 
     width: 100%;
-
+    height: 80px;
     background-color: #F4F1EB;
 
     z-index: 999;
 
-    padding: 20px 80px;
+    padding: 0 80px;
 
     box-sizing: border-box;
 }
@@ -101,11 +101,9 @@ body.dark-mode .toggle-circle{
 
 .logo{
     font-size: 32px;
-
+    font-family: 'Playfair Display', serif;
     text-decoration: none;
-
     color: #1d1d1d;
-
     font-weight: bold;
 }
 
@@ -134,7 +132,7 @@ nav ul li a{
     font-weight: 500;
 
     position: relative;
-
+    
     transition: 0.3s ease;
 }
 
@@ -1294,7 +1292,7 @@ body.dark-mode #pkmModal h5{
     /* RESUME */
 
     #Resume{
-        padding: 60px 24px 0;
+        padding: 40px 24px 0;
     }
 
     #Resume h2{
