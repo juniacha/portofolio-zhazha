@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Zha Zha</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.png">
+
+</head>
+<body>
+    
+    <nav>
+        
+        <a href="#Home" class="logo">Zha Zha</a>
+        
+        <button class="menu-toggle" id="menuToggle">
+            <i class="bi bi-list"></i>
+        </button>
+        
+        <ul id="navMenu">
+        
+            <li><a href="#Home">Home</a></li>
+        
+            <li><a href="#About">About</a></li>
+        
+            <li class="dropdown">
+        
+                <a href="#Resume">Resume ▾</a>
+        
+                <ul class="dropdown-menu">
+        
+                    <li><a href="#Pendidikan">Pendidikan</a></li>
+        
+                    <li><a href="#Organisasi">Organisasi</a></li>
+        
+                    <li><a href="#Skill">Keahlian</a></li>
+        
+                </ul>
+        
+            </li>
+        
+            <li><a href="#Projects">Projects</a></li>
+        
+            <li><a href="#Contact">Contact</a></li>
+        
+        </ul>
+        
+        <button class="theme-toggle" id="themeToggle">
+            <div class="toggle-circle">
+                <i class="bi bi-moon-stars-fill"></i>
+            </div>
+        </button>
+
+
+</nav>
+        
+    <section id="Home">
+
+        <div class="home-content">
+
+            <h4>Halo, saya</h4>
+
+            <h1>Zhazha Junianita Putri</h1>
+
+            <h3>Mahasiswa Informatika <br> AI for Computer Vision</h3>
+
+            <p>
+                Learning, creating, and figuring things out along the way.
+            </p>
+
+        </div>
+
+        <div class="home-image">
+            <img id="profileImage" src="profile_light.png">
+        </div>
+
+    </section>
+
+    <section id="About">
+
+            <h2>About</h2>
+
+            <p class="about-text">
+                Saya merupakan mahasiswa Informatika di Universitas Budi Luhur
+                yang memiliki minat dalam pengembangan web, analisis data,
+                dan computer vision. Saat ini saya aktif mempelajari berbagai
+                teknologi melalui perkuliahan, proyek akademik, serta kegiatan
+                kampus untuk memperluas pengalaman dan mengembangkan
+                kemampuan di bidang teknologi informasi.
+            </p>
+
+            <div class="about-focus">
+
+                <h3>Fokus Bidang</h3>
+
+                <div class="interest-tags">
+                    <span>Web Development</span>
+                    <span>Computer Vision</span>
+                    <span>UI/UX Design</span>
+                </div>
+
+            </div>
+
+    </section>
+
+    <section id="Resume">
+        <h2>Resume</h2>
+
+        <div id="Pendidikan">
+            <h2>Pendidikan</h2>
+
+                <div class="education-card">
+                    <span class="education-year">2024 - Sekarang</span>
+
+                    <h3>Universitas Budi Luhur</h3>
+
+                    <h4>Mahasiswa Informatika</h4>
+
+                    <p>
+                        Sedang menempuh pendidikan Sarjana Informatika dengan fokus pada
+                        pengembangan perangkat lunak, basis data, dan kecerdasan buatan.
+                    </p>
+                </div>
+
+                <div class="education-card">
+                    <span class="education-year">2020 - 2023</span>
+
+                    <h3>SMK AN-Nurmaniyah</h3>
+
+                    <h4>Jurusan Multimedia</h4>
+
+                    <p>
+                        Mempelajari desain grafis, editing multimedia, dan dasar-dasar
+                        pengembangan media digital.
+                    </p>
+                </div>
+        </div>
+            
+            <div id="Organisasi">
+                <h2>Pengalaman Organisasi</h2>
+
+                <div class="organization-container">
+
+                    <div class="organization-card">
+                        <img src="odk.jpg" alt="One Day Kebudiluhuran">
+
+                        <div class="card-content">
+                            <h4>One Day Kebudiluhuran</h4>
+
+                            <span class="organization-year">
+                                Mei 2025 • Universitas Budi Luhur
+                            </span>
+
+                            <p>
+                                Berperan sebagai panitia kegiatan One Day Kebudiluhuran dan
+                                membantu pelaksanaan workshop untuk siswa SMK di Universitas
+                                Budi Luhur.
+                            </p>
+
+                            <button
+                            class="Button"
+                                data-bs-toggle="modal"
+                                data-bs-target="#odkModal">
+                                
+                                Lihat Dokumentasi
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="organization-card">
+                        <img src="bakti sosial.jpg" alt="Acara Bakti Sosial">
+
+                        <div class="card-content">
+                            <h4>Acara Bakti Sosial</h4>
+
+                            <span class="organization-year">
+                                Juli 2025 • Kuningan, Jawa Barat
+                            </span>
+
+                            <p>
+                                Berpartisipasi dalam kegiatan bakti sosial sebagai bentuk
+                                kepedulian terhadap masyarakat dan lingkungan sekitar.
+                            </p>
+
+                            <a href="https://mediabareskrimnews.blogspot.com/2025/07/universitas-budi-luhur-jakarta-lakukan.html" 
+                            target="_blank"
+                            class="Button">
+                                
+                            lihat Dokumentasi
+
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="organization-card">
+                        <img src="mangrove.jpg" alt="Penanaman Mangrove">
+
+                        <div class="card-content">
+                            <h4>Penanaman Mangrove</h4>
+
+                            <span class="organization-year">
+                                Juli 2025 • Indramayu
+                            </span>
+
+                            <p>
+                                Mengikuti kegiatan penanaman mangrove sebagai kontribusi
+                                terhadap pelestarian lingkungan.
+                            </p>
+
+                            <a href="https://mediabareskrimnews.blogspot.com/2025/07/universitas-budi-luhur-jakarta-lakukan.html" 
+                                target="_blank"
+                                class="Button">
+
+                                lihat Dokumentasi
+
+                            </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="Skill">
+                <h2>Keahlian</h2>
+
+                <div class="skills-container">
+
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="bi bi-code-slash"></i>
+                        </div>
+
+                        <div class="skill-content">
+
+                            <h4>Web Development</h4>
+
+                            <span>
+                                HTML • CSS • bootstrap • PHP • MySQL
+                            </span>
+
+                            <p>
+                                Masih dalam tahap belajar pengembangan web melalui
+                                praktikum, tugas perkuliahan, dan proyek sederhana.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="bi bi-cpu"></i>
+                        </div>
+
+                        <div class="skill-content">
+                            <h4>Data & AI</h4>
+
+                            <span>Python • RapidMiner • Machine Learning</span>
+
+                            <p>
+                                Memiliki pengalaman dasar dalam pengolahan data dan
+                                machine learning melalui perkuliahan.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="bi bi-palette"></i>
+                        </div>
+
+                        <div class="skill-content">
+                            <h4>Design</h4>
+
+                            <span>Figma • Canva • Adobe Illustrator </span>
+
+                            <p>
+                                Menggunakan Figma dan Canva untuk kebutuhan desain
+                                sederhana dan presentasi.
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="bi bi-tools"></i>
+                        </div>
+
+                        <div class="skill-content">
+                            <h4>Tools</h4>
+
+                            <span>
+                                VS Code • GitHub • XAMPP 
+                            </span>
+
+                            <p> 
+                                Menggunakan berbagai tools pendukung untuk coding,
+                                dokumentasi, dan pengembangan proyek.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Projects">
+        <h2>Projects</h2>
+
+        <div class="Projects-container">
+            <div class="Projects-card">
+                <img src="chatbotAi.png" alt="Voice chatbot">
+
+                <div class="Projects-content">
+                    <h3>Chatbot sederhana berbasis suara</h3>
+
+                    <span>
+                        Python • Speech to Text • Text to Speech
+                    </span>
+
+                    <p>
+                        Mengembangkan chatbot berbasis suara yang mampu menerima
+                        input suara pengguna melalui teknologi Speech to Text dan
+                        memberikan respons dalam bentuk suara menggunakan Text to Speech.
+                    </p>
+
+                <a href="https://huggingface.co/spaces/Juniacha/chatbot-ai-sederhana" 
+                    target="_blank"
+                    class="Button">
+                    Lihat Detail
+                </a>
+                </div>
+            </div>
+
+            <div class="Projects-card">
+                <img src="porto.png" alt="website poto">
+
+                <div class="Projects-content">
+                    <h3>Personal Portfolio Website</h3>
+
+                    <span>
+                        HTML • CSS • BOOTSTRAP
+                    </span>
+
+                    <p>
+                        Website portfolio pribadi yang menampilkan profil,
+                        pengalaman, keahlian, dan proyek yang pernah dikerjakan.
+                    </p>
+                    <a href="#Home" class="Button">
+                        Lihat Detail
+                    </a>
+                </div>
+            </div>
+
+            <div class="Projects-card">
+                <img src="bima.jpeg" alt="PKM BIMA">
+
+                <div class="Projects-content">
+                    <h3>PKM BIMA (Ongoing)</h3>
+
+                    <span>
+                        Academic Project
+                    </span>
+
+                    <p>
+                        Program Kreativitas Mahasiswa yang saat ini masih dalam
+                        tahap pengembangan dan penyusunan proposal.
+                    </p>
+
+                    <button 
+                        class="Button progress-btn"
+                        data-bs-toggle="modal"
+                        data-bs-target="#pkmModal">
+                        On Progress
+                    </button>
+                </div>
+            </div>
+
+            <div class="Projects-card">
+                <img src="kemenangan.JPG" alt="Lomba Poster">
+
+                <div class="Projects-content">
+                    <h3>Juara Lomba Poster ORDIK</h3>
+
+                    <span>2024 • Universitas Budi Luhur</span>
+
+                    <p>
+                        Meraih juara dalam lomba desain poster ORDIK dengan
+                        mengembangkan konsep visual sebagai media informasi
+                        dan komunikasi.
+                    </p>
+
+                    <button
+                    class="Button"
+                        data-bs-toggle="modal"
+                        data-bs-target="#kemenanganModal">
+                        Lihat Detail
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Contact">
+        <h2>Contact</h2>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Let's Connect</h3>
+
+                <p>
+                    Feel free to reach out for collaboration,
+                    projects, or just to say hello.
+                </p>
+                
+                <div class="contact-item">
+                    <strong>Email</strong>
+                    <a href="mailto:zhazhajunianitaputri17@gmail.com">
+                        zhazhajunianitaputri17@gmail.com
+                    </a>
+                </div>
+
+                <div class="contact-item">
+                    <strong>Instagram</strong>
+                    <a href="https://www.instagram.com/lilly_jyu?igsh=MWRteGdnM3p1Y2J6aQ==" target="_blank">
+                        @lilly_jyu
+                    </a>
+                </div>
+
+                <div class="contact-item">
+                    <strong>GitHub</strong>
+                    <a href="https://github.com/juniacha" target="_blank">
+                        @juniacha
+                    </a>
+                </div>
+
+                <div class="contact-item">
+                    <strong>LinkedIn</strong>
+                    <a href="https://www.linkedin.com/in/zhazha-jputri" target="_blank">
+                        Zha Zha Junianita Putri
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-form">
+
+               <form
+                    id="contactForm"
+                    action="https://formspree.io/f/mgobpqgz"
+                    method="POST">
+
+                    <input
+                        type="text"
+                        name="name"
+                        placeholder="Your Name">
+
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="Your Email">
+
+                    <input
+                        type="text"
+                        name="subject"
+                        placeholder="Subject">
+
+                    <textarea 
+                    rows="5" 
+                    name="message" 
+                    placeholder="Your Message"></textarea>
+
+                    <button type="submit">
+                        Send Message
+                    </button>
+
+                    <p id="success-message">
+                        Pesan berhasil dikirim!
+                    </p>
+
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+
+        <p>© 2026 Zhazha Junianita Putri</p>
+
+        <span>
+            Informatics Student • Universitas Budi Luhur
+        </span>
+
+        <div class="footer-links">
+            <a href="mailto:zhazhajunianitaputri17@gmail.com">
+                Email
+            </a>
+            <a href="https://github.com/juniacha">
+                GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/zhazha-jputri">
+                LinkedIn
+            </a>
+            <a href="https://www.linkedin.com/in/zhazha-jputri">
+                Instagram
+            </a>
+        </div>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+
+        const toggle = document.getElementById("themeToggle");
+        const icon = document.querySelector(".toggle-circle");
+        const profileImage = document.getElementById("profileImage");
+
+        if(localStorage.getItem("theme") === "dark"){
+
+            document.body.classList.add("dark-mode");
+            icon.innerHTML = '<i class="bi bi-sun-fill"></i>';
+            profileImage.src = "profile_dark.png";
+
+        }
+
+        toggle.addEventListener("click", () => {
+
+            document.body.classList.toggle("dark-mode");
+
+            profileImage.style.transform = "rotateY(90deg)";
+
+            setTimeout(() => {
+
+                if(document.body.classList.contains("dark-mode")){
+
+                    localStorage.setItem("theme", "dark");
+                    icon.innerHTML = '<i class="bi bi-sun-fill"></i>';
+                    profileImage.src = "profile_dark.png";
+
+                }else{
+
+                    localStorage.setItem("theme", "light");
+                    icon.innerHTML = '<i class="bi bi-moon-stars-fill"></i>';
+                    profileImage.src = "profile_light.png";
+
+                }
+
+                profileImage.style.transform = "rotateY(0deg)";
+
+            }, 300);
+
+        });
+
+        const form = document.getElementById("contactForm");
+        
+        form.addEventListener("submit", async function(e){
+        
+            e.preventDefault();
+        
+            const data = new FormData(form);
+        
+            const response = await fetch(form.action, {
+                method: "POST",
+                body: data,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            });
+        
+            if(response.ok){
+        
+                document.getElementById("success-message").style.display = "block";
+        
+                form.reset();
+        
+            }
+        });
+
+        const menuToggle = document.getElementById("menuToggle");
+        const navMenu = document.getElementById("navMenu");
+        
+        menuToggle.addEventListener("click", () => {
+        
+            navMenu.classList.toggle("active");
+        
+        });
+
+        document.querySelectorAll("#navMenu a").forEach(link => {
+
+        link.addEventListener("click", () => {
+        
+            navMenu.classList.remove("active");
+        
+        });
+
+});
+
+        
+    </script>
+
+    <div class="modal fade" id="odkModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        Dokumentasi Kegiatan One Day Kebudiluhuran
+                    </h5>
+
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal">
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <p>
+                        Berperan sebagai panitia kegiatan One Day Kebudiluhuran
+                        dan membantu pelaksanaan workshop untuk siswa SMK.
+                    </p>
+
+                    <div class="gallery-odk">
+                        <div class="poster-item">
+                            <img src="odk1.jpg">
+
+                            <div class="poster-caption">
+                                <p>Sambutan dari guru pembimbing</p>
+                            </div>
+                        </div>
+
+                        <div class="poster-item">
+                            <img src="odk2.jpg">
+
+                            <div class="poster-caption">
+                                <p>sesi pembelajaran</p>
+                            </div>
+                        </div>
+                        
+                        <div class="poster-item">
+                            <img src="odk3.jpg">
+
+                            <div class="poster-caption">
+                                <p>sesi Quiz</p>
+                            </div>
+                        </div>
+
+                        <div class="poster-item">
+                            <img src="odk4.jpg">
+
+                            <div class="poster-caption">
+                                <p>Sesi foto bersama</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="kemenanganModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Juara poster ordik 2024</h5>
+                    
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal">
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <p>
+                        Meraih Juara Lomba Poster ORDIK 2024 Universitas Budi Luhur. Kegiatan ini memberikan pengalaman 
+                        dalam mengembangkan ide kreatif dan mengolahnya menjadi desain visual yang informatif dan menarik.
+                    </p>
+
+                    <div class="gallery-poster">
+                        <div class="poster-item">
+                            <img src="poster1.png">
+
+                            <div class="poster-caption">
+                                <h5>9 Nilai Kebudiluhuran</h5>
+
+                                <p>
+                                    Poster ini dibuat untuk menyampaikan pentingnya nilai-nilai
+                                    kebudiluhuran dalam kehidupan sehari-hari.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="poster-item">
+                            <img src="poster2.png">
+
+                            <div class="poster-caption">
+                                <h5>Stop Sexual Abuse</h5>
+
+                                <p>
+                                    Poster ini dibuat untuk meningkatkan kesadaran mengenai
+                                    pencegahan kekerasan seksual dan pentingnya menciptakan
+                                    lingkungan yang aman.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="pkmModal">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        PKM BIMA
+                    </h5>
+
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal">
+                    </button>
+                </div>
+
+                <div class="modal-body text-center">
+                    <div class="spinner-border text-warning mb.3" role="status">
+
+                    </div>
+
+                    <h5>Project Sedang Dikembangkan</h5>
+
+                    <p>
+                        PKM BIMA saat ini masih dalam tahap pengembangan dan
+                        penyusunan proposal. Informasi serta dokumentasi project
+                        akan diperbarui seiring perkembangan kegiatan.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
